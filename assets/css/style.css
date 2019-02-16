@@ -1,0 +1,218 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background: url('../images/dust_scratches.png') repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    color: #777777;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+header{
+    background: white;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 30px;
+    font-weight: bold;
+    height: 112px;
+    
+
+    
+
+
+}
+
+
+
+h1{
+    color: white;
+    background: #4aaaa5;
+    display: inline-block;
+    padding: 30px;
+    font-size:30px;
+    
+
+}
+
+nav{
+    width: 300px;
+    float:right;
+    margin-top:35px;
+    text-align: center;
+    
+    
+
+}
+
+
+nav ul li{
+    display: inline;
+}
+
+nav a{
+    color:grey;
+    font-size:14px;
+    padding:5px 15px;
+    border-right:2px solid #4aaaa5;
+    text-decoration: none;
+
+}
+
+nav ul li:last-child a {
+    border-right: none;
+    padding right: none;
+}
+
+h2{
+    font-size: 26px;
+    margin-bottom: 30px;
+    padding: 15px 0;
+    border-bottom: 2px solid #ccc;
+
+}
+
+
+
+p{
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+img{
+    float: left;
+    margin: 0 15px 15px 0;
+    
+}
+.main{
+    width:960px;
+    margin: 0 auto;
+    
+    
+}
+
+.body{
+    width:960px;
+    margin: 0 auto;
+    background: white;
+    padding: 50px;
+    
+    
+}
+
+.clearfix{
+    display:block;
+    clear:both;
+}
+
+footer{
+    background:#666666;
+    border-top: 5px solid  #4aaaa5;
+    position: relative;
+    padding: 40px;
+    clear: both;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+    
+}
+
+
+
+form{
+    font-size:20px:
+    display: block;
+
+
+}
+
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+}
+
+button{
+    font-size: 18px;
+    color: #ffffff;
+    background: #4aaaa5;
+    padding: 10px;
+    width: 100px;
+    border:none;
+}
+
+.item{
+    position: relative;
+    margin-bottom:20px;
+    width: 45%;
+    float: left;
+    height: 250px;
+
+}
+
+.item:nth-of-type(even){
+    float: right;
+
+}
+
+#item1{
+    background: url("../images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+
+#item2{
+    background: url("../images/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#item3{
+    background: url("../images/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#item4{
+    background: url("../images/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#item5{
+    background: url("../images/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.pictures{
+    float: left;
+}
+
+ h4{
+    color: white;
+    background: #4aaaa5;
+    bottom: 15px;
+    text-align: center;
+    padding: 15px 0;
+    bottom: 15px;
+    
+
+}
+
+
+/* For the header in all pages, I couldn't get the white background to be as wide as the inline green block that has my name and navigation bar in it! */
+/* I am not sure why when I try to set h4 position to absolute it won't work even though I sat I sat position to relative in class item. */
+/* I am also not sure why I can't get the body white area to cover the intended area like the images provided! */
